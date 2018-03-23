@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bookmark App</title>
+</head>
+<body onload="fetchBookmark()">
+    <header id="main-header"><strong>Bookmark</strong></header>
+    <hr>
+    <br>
+    <!-- Add bookmark -->
+
+    <div class="container">
+        <h2>Bookmark Your Favourite Site</h2>
+        <form id="myForm">
+            <label>Site Name</label>
+            <br>
+            <input id="siteName" type="text" placeholder="Website name">
+            <br>
+            <label >Site Url</label>
+            <br>
+            <input id="siteUrl" type="text" placeholder="Website URL">
+            <br>
+            <input id="btn" type="submit" value="Submit">
+        </form>
+    </div>
+
+    <br>
+    
+    <ul id="items" class="list-group">
+    
+    </ul>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

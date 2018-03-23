@@ -1,0 +1,75 @@
+html, body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    width:70%;
+}
+#main-header{
+    padding: .7rem;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.555);
+}
+.container{
+    margin: 0 auto;
+    text-align: center;
+    width:80%;
+    background: rgb(236, 236, 236);
+    color: black;
+    border-radius: 5px;
+}
+.container h2{
+    margin: 0;
+    padding: .8rem;
+}
+.container input{
+    margin: .35rem 0;
+    width:70%;
+    padding: .5rem;
+    border: none;
+    border-radius: 3px;
+}
+#btn{
+    margin: 1.2rem;
+    background: rgb(61, 60, 60);
+    color: white;
+    width:50%;
+}
+#btn:hover{
+    background:rgb(43, 39, 39) 
+}
+
+/* list of bookmarks */
+#items{
+    list-style: none;
+    padding: 1rem;
+    margin: 0 auto;
+    width:100%;
+}
+.list-group-item{
+    margin:.4rem auto;
+    padding: 1rem;
+    background: rgb(236, 236, 236);   
+}
+.visit{
+    margin:0 5px;
+    border:none;
+    color: white;
+    background: rgb(85, 205, 235);
+    padding: 3px 5.5px;
+    text-decoration: none;
+}
+.cancel {   
+    background: rgb(238, 69, 69);
+    padding: 3px 5.5px;
+    color: white;
+    border:none;
+    text-decoration: bold;
+}
+.cancel:hover{
+    background:red;
+}
+.visit:hover{
+    background: rgb(11, 187, 231);
+}
